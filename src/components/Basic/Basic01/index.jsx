@@ -1,3 +1,7 @@
+/**
+ * @file Most basic elements in threejs, including renderer, camera, object, scene
+ * @author Qi Miao <mickey.miao7@gmail.com>
+ */
 import * as React from 'react';
 import * as THREE from 'three';
 

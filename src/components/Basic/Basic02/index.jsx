@@ -1,3 +1,7 @@
+/**
+ * @file Axis, wireframes of mesh
+ * @author Qi Miao <mickey.miao7@gmail.com>
+ */
 import * as React from 'react';
 import * as THREE from 'three';
 

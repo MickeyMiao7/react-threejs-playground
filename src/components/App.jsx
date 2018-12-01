@@ -7,6 +7,7 @@ import { HashRouter, Link } from 'react-router-dom';
 import Introduction from './Introduction';
 import Basic01 from './Basic/Basic01';
 import Basic02 from './Basic/Basic02';
+import Basic03 from './Basic/Basic03';
 
 import { Menu, Icon } from 'antd'; 
 const SubMenu = Menu.SubMenu;
@@ -37,6 +38,7 @@ class App extends Component {
               <SubMenu key="sub1" title={<span><Icon type="mail" /><span>Basic</span></span>}>
                 <Menu.Item key="1"><Link to="/basic/1">1</Link></Menu.Item>
                 <Menu.Item key="2"><Link to="/basic/2">2</Link></Menu.Item>
+                <Menu.Item key="3"><Link to="/basic/3">3</Link></Menu.Item>
               </SubMenu>
               <SubMenu key="sub2" title={<span><Icon type="appstore" /><span>Navigation Two</span></span>}>
                 <Menu.Item key="5">Option 5</Menu.Item>
@@ -56,6 +58,7 @@ class App extends Component {
               <Route exact path='/' component={Introduction} />
               <Route path='/basic/1' component={Basic01} />
               <Route path='/basic/2' component={Basic02} />
+              <Route path='/basic/3' component={Basic03} />
             </Switch>
           </main>
         </div>
